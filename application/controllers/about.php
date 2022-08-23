@@ -1,15 +1,15 @@
 <?php 
 
-class Home extends CI_Controller {
+class About extends CI_Controller {
 
-    public function index() {
+    public function my_profile() {
 
-        $data['title'] = 'Home Page';
+        $data['title'] = 'About Page';
 
         $this->load->view('templates/head', $data);
         $this->load->view('templates/header');
 
-        $this->load->view('layouts/home');
+        $this->load->view('layouts/about');
 
         $this->load->view('templates/footer');
     }
