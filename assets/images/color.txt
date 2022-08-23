@@ -1,0 +1,4 @@
+color1: #411530; (black--maroon)
+color2: #D1512D; (maroon)
+color3: #F5C7A9; (orange)
+color4: #F5E8E4; (beige)

@@ -1,0 +1,24 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	/* untuk font heading */
+	/* font-family: "DM Serif Display", serif; */
+	font-family: "Roboto", sans-serif;
+}
+
+:root {
+	--bg-color: #f5e8e4;
+
+	--main-color: #f5c7a9;
+	--second-color: #d1512d;
+	--third-color: #411530;
+
+	--light-color: #fff;
+	--dark-color: #333;
+}
