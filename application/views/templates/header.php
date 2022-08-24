@@ -10,7 +10,11 @@
         <nav class="navbar navbar-expand-lg">
             <ul class="navbar-nav">
                 <li class="nav-item"><a href="<?= site_url('about') ?>" class="nav-link ">About</a></li>
-                <li class="nav-item"><a href="<?= site_url('login') ?>" class="nav-link btn">Login</a></li>
+                <?php if ($this->session->userdata('logged_in')) :?>
+                    <li class="nav-item"><a href="<?= site_url('logout') ?>" class="nav-link btn">Logout</a></li>
+                <?php else : ?>
+                    <li class="nav-item"><a href="<?= site_url('login') ?>" class="nav-link btn">Login</a></li>
+                <?php endif ; ?>
             </ul>
         </nav>
     </div>
